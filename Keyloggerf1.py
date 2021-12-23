@@ -64,7 +64,7 @@ def send_email(filename, attachment, toaddr):
 
     msg['Subject'] = "Log File"
 
-    body = "mail content"
+    body = "Mail content"
 
     msg.attach(MIMEText(body, 'plain'))
 
